@@ -38,19 +38,19 @@ Data Visualization
 
      =>Predict cluster labels and store them in the dataset.
 
-    =>Visualizing Clusters
+     =>Visualizing Clusters
 
      =>Plot clusters using different colors.
 
-      =>Mark centroids using kmeans.cluster_centers_.
+     =>Mark centroids using kmeans.cluster_centers_.
 
-      =>Clustering Based on Multiple Features
+     =>Clustering Based on Multiple Features
 
-      =>Encode categorical variables (Gender).
+     =>Encode categorical variables (Gender).
 
-      =>Apply KMeans to Age, Annual Income (k$), and Spending Score (1-100).
+     =>Apply KMeans to Age, Annual Income (k$), and Spending Score (1-100).
 
-      =>Visualize clusters.
+     =>Visualize clusters.
 
 Results
 
