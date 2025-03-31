@@ -1,10 +1,10 @@
-K-Means Clustering on Mall Customers Dataset
+# K-Means Clustering on Mall Customers Dataset
 
-Introduction
+# Introduction
 
 This project performs K-Means clustering on the Mall Customers dataset to segment customers based on their spending behavior and annual income.
 
-Libraries Used
+# Libraries Used
 
     =>pandas
 
@@ -14,45 +14,45 @@ Libraries Used
 
     =>seaborn
 
-Steps Involved
+# Steps Involved
 
-    =>Load Dataset
+=>Load Dataset
 
-    =>Read the dataset using pandas.
+=>Read the dataset using pandas.
 
-    =>Display the first few records using df.head().
+=>Display the first few records using df.head().
 
-Data Visualization
+# Data Visualization
 
-     =>Scatter plot of Annual Income (k$) vs. Spending Score (1-100).
+Scatter plot of Annual Income (k$) vs. Spending Score (1-100).
 
-     =>Finding Optimal Number of Clusters (Elbow Method)
+Finding Optimal Number of Clusters (Elbow Method)
 
-     =>Compute Within-Cluster Sum of Squares (WCSS) for different cluster counts.
+Compute Within-Cluster Sum of Squares (WCSS) for different cluster counts.
 
-     =>Plot WCSS values to determine the elbow point.
+Plot WCSS values to determine the elbow point.
 
-     =>Apply K-Means Clustering
+Apply K-Means Clustering
 
-     =>Use KMeans with n_clusters=5.
+Use KMeans with n_clusters=5.
 
-     =>Predict cluster labels and store them in the dataset.
+Predict cluster labels and store them in the dataset.
 
-     =>Visualizing Clusters
+Visualizing Clusters
 
-     =>Plot clusters using different colors.
+Plot clusters using different colors.
 
-     =>Mark centroids using kmeans.cluster_centers_.
+Mark centroids using kmeans.cluster_centers_.
 
-     =>Clustering Based on Multiple Features
+Clustering Based on Multiple Features
 
-     =>Encode categorical variables (Gender).
+Encode categorical variables (Gender).
 
-     =>Apply KMeans to Age, Annual Income (k$), and Spending Score (1-100).
+Apply KMeans to Age, Annual Income (k$), and Spending Score (1-100).
 
-     =>Visualize clusters.
+Visualize clusters.
 
-Results
+# Results
 
 The dataset is successfully segmented into customer clusters.
 
