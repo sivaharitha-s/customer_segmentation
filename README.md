@@ -6,13 +6,13 @@ This project performs K-Means clustering on the Mall Customers dataset to segmen
 
 # Libraries Used
 
-    =>pandas
+pandas
 
-    =>sklearn.cluster (KMeans)
+sklearn.cluster (KMeans)
 
-    =>matplotlib.pyplot
+matplotlib.pyplot
 
-    =>seaborn
+seaborn
 
 # Steps Involved
 
